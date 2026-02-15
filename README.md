@@ -1,4 +1,4 @@
-# 🧮 Scientific Calculator: The "Bookish" Engine
+# 🧮 Scientific Calculator: The "Scientific Calculator with Bookish Math display"
 
 Most mobile calculators display math in a flat, linear string (e.g., `5/2`). This project challenges that norm by implementing a **Hybrid Android/Web Engine** that renders mathematical expressions in a natural, textbook-style layout—supporting nested fractions, radicals, and exponents in real-time.
 
