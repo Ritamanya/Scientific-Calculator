@@ -1,0 +1,181 @@
+button#eql{
+    font-size: 27px;
+    background-color: rgb(12, 184, 0);
+    flex: 1;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 3px;
+    border-width: 1.5px;
+}
+button{
+    font-size: 20px;
+    padding: 5px;
+    flex: 1;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+    border-width: 1.5px;
+}
+.btnum{
+  background-color: rgb(255, 221, 0);
+}
+.btop{
+  background-color: aqua;
+}
+.btcm{
+    background-color: #c8ff00;
+}
+.btcm:active {
+    background-color: #8db600;
+}
+.btnum:active{
+    background-color: rgb(206, 178, 0);
+}
+.btop:active{
+    background-color: #00c5c5;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.cursor{
+    width: 1.299px;
+    height: 40px;
+    background: black;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /*animation-timing-function: ease-in-out;*/
+}
+
+.sinp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.power{
+  display: flex;
+  flex-direction: row;
+}
+.numinpow{
+  display: flex;
+  flex-direction: row;
+}
+.pow{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  margin-left: -5px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
+.rt{
+  display: flex;
+  flex-direction: row;
+    padding-top: 5px;
+}
+.valueinrt{
+  margin-left: -1.5px;
+  display: flex;
+  flex-direction: row;
+  border-top: solid 0.8px black;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+ 
+ button:active{
+    background-color: rgb(189, 164, 0);
+    color: aliceblue;
+ }
+ button#eql:active{
+    background-color: rgba(12, 184, 0, 0.688);
+    color: aliceblue;
+ }
+
+ #textarea{
+    font-size: 30px;
+    padding: 5px;
+ }
+ hr{
+  display: flex;
+    margin: 1px;
+    flex-grow: 1;
+    stroke-width: 50px;
+ }
+ .parinput{
+   display: flex;
+     flex-direction: row;
+   align-items: center;
+   justify-content: center;
+ }
+ .op{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding-left: 3.5px;
+     padding-right: 3.5px;
+ }
+ .dg{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+ .ph{
+     width: 40px;
+     height: 35px;
+     border: dashed 2.5px black;
+ }
+ .numerator{
+   display: flex;
+   flex: 1;
+   align-content: center;
+   justify-content: center;
+   padding: 1px;
+   padding-left: 8px;
+   padding-right: 8px;
+ }
+ .denominator{
+   display: flex;
+   flex: 1;
+   align-content: center;
+   justify-content: center;
+   padding: 1px;
+   padding-left: 8px;
+   padding-right: 8px;
+ }
+ .fraction{
+    display: flex;
+    flex-direction: column;
+   padding: 1px;
+   padding-right: 4px;
+   padding-left: 4px;
+ }
+ 
+ html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Optional, but often useful to prevent scrollbars */
+}
+body{
+display: flex;
+flex-direction: column;
+
+}
+#res{
+  font-size: 35px;
+  color: rgb(6, 111, 0);
+  font-weight: bold;
+}
